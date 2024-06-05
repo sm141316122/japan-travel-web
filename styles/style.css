@@ -1,0 +1,185 @@
+@charset "UTF-8";
+body {
+  position: relative;
+}
+body img.fixed-img {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -5;
+}
+body header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(223, 220, 220);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+body header section.logo {
+  display: flex;
+  flex: 1 1 400px;
+  align-items: center;
+}
+body header section.logo img {
+  width: 6vw;
+  height: 6vh;
+}
+body header section.logo h1 {
+  font-size: 2.5rem;
+}
+body header nav {
+  flex: 2 1 600px;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+body header nav ul li {
+  padding: 2rem 0;
+}
+body header nav ul li a {
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+body header nav ul li a:hover {
+  color: #cb9cff;
+  border-bottom: 2px solid #cb9cff;
+}
+body main section.background-img {
+  min-height: 70vh;
+  background-image: url(../images/京都古城.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main section.background-img div.filter {
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+body main section.background-img h3 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
+body main section.place {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+body main section.place h2 {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+}
+body main section.place div.place-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body main section.place div.place-img div.item {
+  flex-basis: 250px;
+  text-align: center;
+  padding: 2.5rem;
+}
+body main section.place div.place-img div.item img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s;
+}
+body main section.place div.place-img div.item img:hover {
+  padding: 0.3rem;
+  border: 3px solid #cb9cff;
+}
+body main section.background-img2 {
+  min-height: 70vh;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main section.background-img2 h3 {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+body main section.map-group {
+  padding: 2rem 1rem;
+  background-color: white;
+}
+body main section.map-group div.text {
+  text-align: center;
+}
+body main section.map-group div.text h3 {
+  font-size: 2.5rem;
+}
+body main section.map-group div.text p {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+body main section.map-group div.map iframe {
+  width: 100%;
+  height: 40vh;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body footer section.footer-logo img {
+  width: 20vw;
+  padding-top: 2rem;
+}
+body footer section.footer-logo h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  padding-top: 0.5rem;
+}
+body footer section.contact-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body footer section.contact-icon img {
+  width: 100px;
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 650px) {
+  body header {
+    position: static;
+  }
+  body header section.logo {
+    flex-direction: column;
+  }
+  body header section.logo img {
+    width: 30vh;
+    height: 30vh;
+  }
+  body header nav ul {
+    flex-direction: column;
+  }
+  body header nav ul li {
+    padding: 0.5rem 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
