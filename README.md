@@ -1,1 +1,1 @@
-[![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4)
+[![Watch the video](https://github.com/sm141316122/japan-travel-web/blob/main/japan-web%201.mp4)
